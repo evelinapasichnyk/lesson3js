@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+</head>
+<body>
+    <h1>Задача 7</h1>
+    <p>З клавіатури вводиться номер місяця. Вивести до якої пори він відноситься</p>
+    <script>
+        //Вводимо необхідні дані
+        let monthNumber = parseInt(prompt(`Введіть номер місяця`,3))
+        let timeOfTheYear 
+        //Знаходимо необхідні дані
+        switch(monthNumber)
+        {
+            case 1 : timeOfTheYear = "Це зима";
+            break;
+            case 2 : timeOfTheYear = "Це зима";
+            break;
+            case 3 : timeOfTheYear = "Це весна";
+            break;
+            case 4 : timeOfTheYear = "Це весна";
+            break;
+            case 5 : timeOfTheYear = "Це весна";
+            break;
+            case 6 : timeOfTheYear = "Це літо";
+            break;
+            case 7 : timeOfTheYear = "Це літо";
+            break;
+            case 8 : timeOfTheYear = "Це літо";
+            break;
+            case 9 : timeOfTheYear = "Це осінь";
+            break;
+            case 10 : timeOfTheYear = "Це осінь";
+            break;
+            case 11 : timeOfTheYear = "Це осінь";
+            break;
+            case 12 : timeOfTheYear = "Це зима";
+            break;
+            default : timeOfTheYear = "Ви ввели не коректне значення";
+            break;
+        }
+
+        //Виводимо результат
+        document.write(` Ви ввели номер місяця ${monthNumber} . ${timeOfTheYear} `)
+    </script>
+</body>
+</html>
